@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: 'Verdana', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1200px;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 20px;
+    height: 150%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+    margin-bottom: 0;
+    border-radius: 20px;
+    background-color: #E16C06;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Verdana', serif;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 150px;
+    height: 100px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.myImg {
+    margin-top: 150px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    flex-basis: 350px;
+}
+
+.knowledge {
+    font-family: 'Verdana', serif;  
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #E16C06;
+}
+
+.article {
+    margin-top: 2em;  
+    text-align: center  
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #E16C06;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 1rem;
+    color: #E16C06;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+}
+
+h1 {
+    color: #E16C06;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: #E16C06;
+    flex: 0 0 auto;
+    border-radius: 20px;
+}
